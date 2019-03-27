@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>arguments</title>
+</head>
+<body>
+    <script>
+        function lileiFunc() {
+            // console.log(arguments);
+            // arguments = null;
+            var arrow_lileiFunc = () => {
+            console.log(arguments);
+         }
+            arrow_lileiFunc(4,5,6);
+        }
+        // var arrow_lileiFunc = () => {
+        //     console.log(arguments);
+        // }
+        lileiFunc(1,2,3);
+        // arrow_lileiFunc(1,2,3);
+    </script>
+</body>
+</html>
